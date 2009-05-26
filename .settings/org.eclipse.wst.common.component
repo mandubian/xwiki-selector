@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+<wb-module deploy-name="xwiki-selector">
+<wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/xwiki-core/xwiki-core">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/xwiki-core-velocity/xwiki-core-velocity">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/xwiki-core-bridge/xwiki-core-bridge">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/xwiki-core-context/xwiki-core-context">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/xwiki-core-xmlrpc-model/xwiki-core-xmlrpc-model">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/xwiki-core-rendering-api/xwiki-core-rendering-api">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/xwiki-core-xml/xwiki-core-xml">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<property name="context-root" value="xwiki-selector"/>
+<property name="java-output-path"/>
+</wb-module>
+</project-modules>
